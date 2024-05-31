@@ -15,9 +15,7 @@ Now you have Pufferpanel, a server, it's server ID (randomly generated 8 charact
 
 Make sure you have the requests and json modules available.
 
-### Using in your code
-
-Place the puffpan file next to the code you want to use it with. Import the module:
+### Usage
 
 ```python
 import puffpan
