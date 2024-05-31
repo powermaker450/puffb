@@ -1,6 +1,6 @@
-# puffpan
+# puffb
 
-puffpan is a small Python module for interacting with a Pufferpanel daemon.
+puffb is a small Python module for interacting with a Pufferpanel daemon.
 
 Made this in my spare time because I needed it.
 
@@ -18,22 +18,22 @@ Make sure you have the requests and json modules available.
 ### Usage
 
 ```python
-import puffpan
+import puffb
 
 ...
 ```
 
-Now you are ready to create a puffpan!
+Now you are ready to create a puffb!
 Using the information you gathered before, create an object:
 
 ```python
-server = puffpan.Panel('your-server-url', 'your-client-id', 'your-secret-key', 'your-server-id')
+server = puffb.Panel('your-server-url', 'your-client-id', 'your-secret-key', 'your-server-id')
 ```
 
 Or, alternatively, if you want to use a client that has access to multiple servers at once:
 
 ```python
-admin = puffpan.Panel('your-server-url', 'your-client-id', 'your-secret-key')
+admin = puffb.Panel('your-server-url', 'your-client-id', 'your-secret-key')
 ```
 
 Keep in mind that with this method, you will have to specify the server ID for most commands. Instead of
