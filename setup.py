@@ -2,7 +2,6 @@ from setuptools import setup
 
 setup(
     name = "puffpan",
-    packages = ["puffpan"],
     keywords = ["pufferpanel"],
     description = "puffpan is a small python module for interacting with a Pufferpanel daemon.",
     version = "1.0",
@@ -11,6 +10,6 @@ setup(
     url = "https://github.com/powermaker450/puff",
     download_url = "https://github.com/powermaker450/puffpan/archive/refs/tags/v1.0.tar.gz",
     install_requires = ["requests"],
-    py_modules = ["pufferpy"],
+    py_modules = ["pufferpan"],
     license = "MIT"
 )
