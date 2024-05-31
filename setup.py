@@ -10,6 +10,6 @@ setup(
     url = "https://github.com/powermaker450/puff",
     download_url = "https://github.com/powermaker450/puffpan/archive/refs/tags/v1.0.tar.gz",
     install_requires = ["requests"],
-    py_modules = ["pufferpan"],
+    py_modules = ["puffpan"],
     license = "MIT"
 )
