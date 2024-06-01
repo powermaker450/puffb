@@ -13,9 +13,13 @@ Create an OAuth2 application for this server. Like it says, **write down the sec
 
 Now you have Pufferpanel, a server, it's server ID (randomly generated 8 character string, usually displayed in the URL in the browser), client ID and secret ID.
 
-Make sure you have the requests and json modules available.
+Make sure you have the requests module available.
 
 ### Usage
+
+```bash
+pip install puffb
+```
 
 ```python
 import puffb
